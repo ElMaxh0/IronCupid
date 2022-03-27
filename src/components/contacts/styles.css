@@ -8,11 +8,6 @@
     background-color: #f2f2f3;
 }
 
-.banner h3 {
-    font-size: 2rem;
-    color: #dbdbdb;
-}
-
 .lasttalk {
     height: 70vh;
     overflow-y: scroll;
