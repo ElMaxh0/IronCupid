@@ -1,0 +1,35 @@
+.chatcontainer {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+}
+
+.leftbar {
+    background-color: #f2f2f3;
+}
+
+.banner h3 {
+    font-size: 2rem;
+    color: #dbdbdb;
+}
+
+.lasttalk {
+    height: 70vh;
+    overflow-y: scroll;
+
+}
+
+.perfil {
+    padding: 1rem;
+    display: flex;
+    border-bottom:  1px solid rgba(0, 0, 0, .09);
+}
+.perfil > img{
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    float: left;
+}
+.perfil >div{
+    padding: 3%;
+}

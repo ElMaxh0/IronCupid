@@ -1,0 +1,28 @@
+
+.menustyle div :nth-child(1){
+    padding: 1%;
+    margin-top: 10%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+.menustyle div :hover {
+    background-color:#FEFEFE;
+}
+.menustyle div div:hover{
+    background-color:#FEFEFE;
+    border-radius: 25px;
+}
+.menustyle div div:hover a::before{
+    background-color:#FEFEFE;
+    border-end-end-radius:25px;
+}
+.menustyle div div a .title{
+    font-size:1.75em;
+}
+.listiconmenuleft{
+    background-size:  10% 100%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/List_Alt-256.png");
+}

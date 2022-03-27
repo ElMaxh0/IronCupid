@@ -1,0 +1,54 @@
+.box{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+.personalinfo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.nameage{
+    font-weight:normal;
+    margin: 0;
+    padding: 2%;
+    margin: 0;
+    text-align: left;
+    z-index: 1;
+}
+.nameage > h1{
+    font-weight: bold;
+    margin: 0;
+    float: left;
+}
+.nameage > div{
+    width: 100%;
+    float: left;
+}
+.acoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acoes > i {
+    font-size: 2rem;
+    border-width: medium;
+    margin: 2%;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 5%;
+    text-align: center;
+    border-color: rgb(192, 83, 255);
+}
+.acoes :nth-child(1){
+    color: rgb(223, 2, 2);
+}
+.acoes :nth-child(2){
+    color: rgb(38, 0, 255);
+}
+.acoes :nth-child(3){
+    color: rgb(112, 255, 83);
+}
